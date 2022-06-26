@@ -4,7 +4,7 @@ app = Flask(__name__)
 
 @app.route("/",methods=["GET","POST"])
 def index():
-    return "Welcome to my Flask app"
+    return "Welcome to my Flask app. CI-CD Pipeline has been established successfully"
 
 if __name__=="__main__":
     app.run(debug=True)
